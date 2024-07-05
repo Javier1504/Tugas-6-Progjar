@@ -11,9 +11,9 @@ class Chat:
 		self.sessions={}
 		self.users = {}
 
-		self.users['danar']={ 'nama': 'danar dan', 'negara': 'Indonesia', 'password': 'surabaya', 'incoming' : {}, 'outgoing': {}}
-		self.users['sodik']={ 'nama': 'sodik priya', 'negara': 'Indonesia', 'password': 'surabaya', 'incoming': {}, 'outgoing': {}}
-		self.users['priya']={ 'nama': 'priyambodo dan', 'negara': 'Indonesia', 'password': 'surabaya','incoming': {}, 'outgoing':{}}
+		self.users['javier']={ 'nama': 'javier jav', 'negara': 'Indonesia', 'password': 'surabaya', 'incoming' : {}, 'outgoing': {}}
+		self.users['nararya']={ 'nama': 'nararya nar', 'negara': 'Indonesia', 'password': 'surabaya', 'incoming': {}, 'outgoing': {}}
+		self.users['aqsa']={ 'nama': 'aqsa vier', 'negara': 'Indonesia', 'password': 'surabaya','incoming': {}, 'outgoing':{}}
 	
 	def write_incoming(self, data):
 		j=data.split(" ")
